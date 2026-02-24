@@ -11,4 +11,17 @@ Fortigate Offers several ways to configure the VLAN according to the mode in whi
 2. Trabsparent mode
 3. Virtual VLAN switch (on supported models)
 
-A DHCP (Dynamic Host Configuration Protocol) server automatically assigns IP addresses and network configuration parameters (subnet mask, default gateway, DNS) to devices on a network. It uses a pool of IP addresses to lease, renew, or reassign addresses, reducing manual configuration errors and management overhead
+A DHCP (Dynamic Host Configuration Protocol) server automatically assigns IP addresses and network configuration parameters (subnet mask, default gateway, DNS) to devices on a network.
+It uses a pool of IP addresses to lease, renew, or reassign addresses, reducing manual configuration errors and management overhead.
+
+Most basic routing is static routing, the default route sends the data packet if it does not fiend any suitable destination in the network.
+
+Monitoring Static Routes
+• The static routes that you create are part of the configuration until you delete them.
+• The list of all the configured routes is available in the GUI at Network > Static Routes.
+• Creating a static route does not ensure that FortiGate will use that static route to forward traffic.
+Several reasons may prevent a route from being added to the routing table:
+The route is misconfigured.
+The port associated with the
+route is down or disabled.
+There is a better route to use to forward traffic to that destination.
