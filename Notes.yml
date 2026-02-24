@@ -10,3 +10,5 @@ Fortigate Offers several ways to configure the VLAN according to the mode in whi
 1. NAT mode
 2. Trabsparent mode
 3. Virtual VLAN switch (on supported models)
+
+A DHCP (Dynamic Host Configuration Protocol) server automatically assigns IP addresses and network configuration parameters (subnet mask, default gateway, DNS) to devices on a network. It uses a pool of IP addresses to lease, renew, or reassign addresses, reducing manual configuration errors and management overhead
