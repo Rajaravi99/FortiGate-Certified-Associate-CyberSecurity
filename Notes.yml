@@ -3,3 +3,10 @@ FortiGate : It is a next generation fiewall (NGFW) which delivers industry leadi
 Key FortiGate Features: Firewall Authentication both local and remote, VPNs, Security Scanning, Web filters, Monitoring and logging.
 
 FortiGate Advanced Features : SD-WAN (Software Defined - Wide area Network), Virtual Domains (VDOMS), Automation stiches
+
+VLANs : Allows you to split your physical LAN to multiple virtual LANs, each LAN performing a different set of duties. VLANs operat on Layer 3 of Internet Protocol.
+
+Fortigate Offers several ways to configure the VLAN according to the mode in which it is operating, the various modes are:
+1. NAT mode
+2. Trabsparent mode
+3. Virtual VLAN switch (on supported models)
