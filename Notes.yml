@@ -25,3 +25,8 @@ The route is misconfigured.
 The port associated with the
 route is down or disabled.
 There is a better route to use to forward traffic to that destination.
+
+Firewall policies are sets of rules that you use to control whether traffic in your network is accepted by FortiGate and, if it is accepted, how FortiGate processes it.
+While configuring a firewall policy you must select between 2 inspection modes :- Flow based and proxy based.
+
+Threr are 2 types of firewall authentication methods local authentication and remote authentication.
