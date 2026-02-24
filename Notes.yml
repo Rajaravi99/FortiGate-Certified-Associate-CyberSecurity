@@ -30,3 +30,25 @@ Firewall policies are sets of rules that you use to control whether traffic in y
 While configuring a firewall policy you must select between 2 inspection modes :- Flow based and proxy based.
 
 Threr are 2 types of firewall authentication methods local authentication and remote authentication.
+
+Using SSL Inspection :
+HTTPS offers protection by applying encryption to web traffic; however, it also introduces a potential security risk because attackers may attempt to use encrypted traffic to get around your network's normal defenses.
+
+Types of SSL ispections : Certificate Inspection and Deep inspection.
+Certificate Inspection
+• Inspects the SSL/TLS handshake.
+• Verifies the identity of the web server.
+• Used only with web filtering.
+
+Deep inspection
+• Decrypts incoming traffic to inspect it.
+• If safe, re-encrypts the traffic and sends it to the recipient.
+• Used with all types of security scanning.
+
+To use FortiGate SSL inspection, you apply an SSL inspection profile to the firewall policy.
+
+Once we add a deep inspection we get certificate warning every time we try to use the website or webapp.
+
+To avoid certificate warnings, do one of the following:
+Download the Fortinet Certificate : Download the Fortinet_CA_SSL certificate and install it on all the workstations as a trusted root authority.
+Use a CA-Issued SSL Certificate : In the certificate, the basic constraints field must be set to CA:TRUE and the keyUsage field must be set to keyCertSign
