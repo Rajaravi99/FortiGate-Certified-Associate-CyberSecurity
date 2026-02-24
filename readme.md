@@ -1,0 +1,1 @@
+This is a repo which contains notes for Fortigate Certified Assocaite Cybersecurity
