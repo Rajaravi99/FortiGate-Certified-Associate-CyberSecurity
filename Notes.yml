@@ -103,3 +103,21 @@ Benefits of Using SSL VPN :
 SSL VPN functionality has 2 modes : Web Mode and Tunnel mode
 Web Mode : Acces the URL like a website.
 Tunnel Mode : Provides full access to the server or application as if you are physically present in the network.
+
+Functions of FortiGate System Maintenance :
+  Backing up configurations
+  Performing firmware upgrades
+  Monitoring system performance
+  Examining licenses
+  Monitoring event logs
+
+Benefits of Using the Fortinet Security Fabric :
+  Unified view of the entire network
+  Object synchronization across devices
+  Security rating
+  Integration
+  Automatic detection of end devices
+  Centralized management
+  Automation
+
+
