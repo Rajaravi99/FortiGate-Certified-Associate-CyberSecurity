@@ -58,3 +58,10 @@ FortiGate stores malware hashes in its database to constantly keep looking for m
 FortiGuard Labs provides a database of signatures that allow FortiGate to identify malware.
 FortiGate updates can be scheduled on regular intervals to keep the database up-to- date.
 This maintains protection against the latest malware variants and previously unknown threats.
+
+Fortigate Antivirus scanning are of 3 types:-
+1. Antivirus Scan : Detects viruses which are an excat match with the signatures stored in the fortigate antivirus database.
+2. Greyware Scan : Fortigate detects Greyware using a signatures which are not excat malwares.
+3. ML / AI Scan : Detects virus/malware which do not have any signatures stored in the database, using it does increase the chances of False Positives.
+
+FortiGate Web Filtering:-
