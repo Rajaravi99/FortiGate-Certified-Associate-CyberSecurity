@@ -120,4 +120,21 @@ Benefits of Using the Fortinet Security Fabric :
   Centralized management
   Automation
 
+Fortigate High availability (HA) is a cluster of fortigate firewalls protecting a network, if one firewall goes down others keep on protecting the network. 
 
+At the core of FortiGate HA is the FortiGate Clustering Protocol (FGCP):
+  Discovers members
+  Elects the primary FortiGate unit
+  Synchronizes data among members
+  Monitors the health of members
+  Assigns virtual MAC addresses to each primary unit interface
+  Synchronizes TCP sessions (must be enabled)
+
+FortiLink is a specialized, direct, and secure Ethernet protocol developed by Fortinet that connects and manages FortiSwitch units and FortiAP wireless access points directly from a FortiGate firewall. It serves as a unified management interface, enabling automatic detection, configuration, and security monitoring of LAN edge devices, essentially forming a single, manageable network fabric
+
+Fortilink Key aspects :-
+Unified Management: Allows the FortiGate to manage FortiSwitches (layer-2 stacking) and FortiAPs, including VLAN configurations and security policies, from one interface.
+Automatic Detection: When a supported switch is connected, the FortiGate automatically discovers and authorizes it.
+Split Interface & Redundancy: Supports FortiLink split interface to connect one FortiGate to multiple switches for redundancy, or use link aggregation (LAG) to increase bandwidth.
+Security Fabric: Enables the deployment of network access control (NAC) and 802.1X authentication, extending security from the firewall to the switch ports.
+Deployment Options: Can be configured as a physical interface, a hardware switch, or a software switch, depending on the FortiGate model.
