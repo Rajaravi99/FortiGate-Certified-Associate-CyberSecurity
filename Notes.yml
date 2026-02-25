@@ -87,3 +87,19 @@ Features of IPsec VPNs : -
   Data Integrity : To prevent data tampering
   Data Confidentiality : To encrypt the traffic
   Anti-replay Protection: To prevent replay attacks
+
+Types of VPNs : Remote access VPNs, site to site VPNs
+In both types of VPNs, after the connection is established, the devices in one network can reach the devices in the other network. When connected through a VPN, devices in different networks become part of the same logical network.
+The Internet Key Exchange (IKE) protocol is used to create VPN tunnel dynamically (IKEv1 and IKEv2).
+
+Secure Socket Layer VPN : It is a type of VPN that uses SSL encryption to create a secure and encrypted connection between a client device and a device acting as a VPN server.
+Benefits of Using SSL VPN :
+  1.Use of common protocol HTTP/HTTPS
+  2. Flexibility for client access
+  3. Granular access to resources
+  4. Integrity checks for Windows clients
+  5. Cost effective.
+
+SSL VPN functionality has 2 modes : Web Mode and Tunnel mode
+Web Mode : Acces the URL like a website.
+Tunnel Mode : Provides full access to the server or application as if you are physically present in the network.
